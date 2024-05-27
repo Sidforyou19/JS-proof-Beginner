@@ -1,0 +1,15 @@
+const Nfts= []
+
+function mint_NFT (name, hairStyle, dressColor, bling) {
+    const nft = {
+      "name" : name,
+      "hairStyle" : hairStyle,
+      "dressColor" : dressColor,
+      "bling" : bling
+    }
+    Nfts.push(nft);
+…mint_NFT("dia", "Silky", "Blue", "Shiny");
+mint_NFT("Sam", "Straight", "Pink", "Shilver");
+mint_NFT("Max", "Bald", "Red", "Copper");
+list_NFTs();
+getTotalSupply();
